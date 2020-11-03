@@ -23,6 +23,95 @@ main {
   max-width: 1310px;
 }
 
+/* footer */
+
+ul {
+  list-style: none;
+}
+
+.flexak {
+  display: flex;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
 footer {
   max-width: 1310px;
+}
+
+.inside-footerak {
+  padding: 30px 15px;
+  background-color: white;
+  position: relative;
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.footer-logoak,
+.brand-logoak {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.brand-logoak {
+  fill: red;
+}
+
+.copyrightak {
+  display: block;
+}
+
+.social-link-wrapperak {
+  padding-top: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.social-linkak {
+  padding-left: 0;
+  margin-bottom: 12px;
+}
+
+.social-linkak > li {
+  margin-left: 10px;
+}
+
+.social-linkak > .faceak {
+  margin-left: 0px;
+}
+
+.social-linkak > li > a {
+  font-size: 24px;
+  color: gray;
+}
+
+.footer-linksak {
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.editionak {
+  margin: 6px 15px 0 0;
+  font-weight: bolder;
+}
+
+.menu-ak {
+  padding-left: 0px;
+}
+
+.menu-ak > li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
 }
