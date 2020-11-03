@@ -59,14 +59,13 @@ footer {
   display: block;
   width: 236px;
   height: 36px;
-  margin-right: 15px;
   margin-bottom: 12px;
   fill: #f72210;
 }
 
 .textonlyak {
-  margin-bottom: 2.5em;
   padding: 0;
+  align-items: end;
 }
 
 .brand-logoak {
@@ -75,6 +74,7 @@ footer {
 
 .copyrightak {
   display: block;
+  margin-bottom: 1em;
 }
 
 .social-linkak {
