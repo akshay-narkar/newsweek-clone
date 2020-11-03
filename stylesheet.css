@@ -61,11 +61,12 @@ footer {
   height: 36px;
   margin-bottom: 12px;
   fill: #f72210;
+  max-width: 248px;
 }
 
 .textonlyak {
   padding: 0;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .brand-logoak {
