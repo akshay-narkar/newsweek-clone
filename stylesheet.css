@@ -42,6 +42,10 @@ footer {
   max-width: 1310px;
 }
 
+.main-footerak {
+  border-top: 20px solid rgba(244, 245, 246, 0.2);
+}
+
 .inside-footerak {
   padding: 30px 15px;
   background-color: white;
@@ -114,4 +118,9 @@ footer {
   padding-right: 20px;
   margin: 6px 0;
   cursor: pointer;
+}
+
+.menu-ak > li > a:hover {
+  text-decoration: none;
+  color: black;
 }
