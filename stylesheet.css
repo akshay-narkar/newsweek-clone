@@ -23,6 +23,11 @@ main {
   background-color: white;
 }
 
+a {
+  color: #666;
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -161,6 +166,7 @@ a:hover {
 /* sponsored */
 .sponsor-containak {
   border: 1px solid #e6e6e6;
+
   /* background-color: #f8f8f8; */
   padding: 20px;
 }
@@ -297,11 +303,6 @@ ul {
   display: flex;
 }
 
-a {
-  color: #666;
-  text-decoration: none;
-}
-
 footer {
   max-width: 1310px;
   border-top: solid 18px #f4f5f6;
@@ -352,7 +353,7 @@ footer {
 }
 
 .social-linkak > .faceak {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .social-linkak > li > a {
@@ -373,7 +374,7 @@ footer {
 }
 
 .menu-ak {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .menu-ak > li {
