@@ -20,6 +20,7 @@ h6 {
 main {
   max-width: 1310px;
   padding: 10px 15px;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -306,6 +307,7 @@ ul {
 footer {
   max-width: 1310px;
   border-top: solid 18px #f4f5f6;
+  margin: 0 auto;
 }
 
 .inside-footerak {
