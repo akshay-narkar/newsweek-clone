@@ -190,6 +190,79 @@ a:hover {
   padding-bottom: 0;
 }
 
+/* debate */
+
+.debate-cardak {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.candi1ak {
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.candi2ak {
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.debate-face1ak {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.debate-face2ak {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.each-debater-nameak {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.vslineak {
+  position: relative;
+}
+
+.vs-ak::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.vs-ak {
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.vs-ak::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
 /* footer */
 
 ul {
