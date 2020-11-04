@@ -61,11 +61,12 @@ a:hover {
 }
 
 .block-titleak {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bolder;
   text-transform: uppercase;
   padding-bottom: 11px;
   color: rgba(3, 3, 3, 0.4);
+  display: block;
 }
 
 .central-imageak {
@@ -106,7 +107,6 @@ a:hover {
 
 .myturn-imageak {
   width: 100%;
-  height: 345px;
 }
 
 .h10ak > a {
@@ -288,7 +288,7 @@ a:hover {
 
 .opinion-cardak {
   border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 0;
+  padding-bottom: 5px;
   border-top: none;
   margin-bottom: 20px;
 }
