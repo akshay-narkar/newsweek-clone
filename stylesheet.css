@@ -4,25 +4,405 @@ body {
   font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
-  position: relative;
   color: black;
 }
 
 main {
   max-width: 1310px;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black;
+}
+
+.gray-border {
+  max-width: 1310px;
+  border-top: solid 18px #f4f5f6;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* feature */
+
+.feature1 {
+  padding-top: 39px;
+}
+
+.h1ak {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.remove-widthak {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.block-titleak {
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+  display: block;
+}
+
+.central-imageak {
+  width: 100%;
+  height: 100%;
+}
+
+.story1ak {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.h1ak > a {
+  color: inherit;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.categoryak {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.categoryak > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* my turn  */
+
+.myturn-imageak {
+  width: 100%;
+}
+
+.h10ak > a {
+  font: bold 14px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.infoak-myturn {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.myturn-categoryak {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: black;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* more stories */
+
+.each-story-containerak {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.morestories-ak {
+  border-top: 1px solid #ddd;
+}
+
+.each-story-imageak {
+  max-width: 95px;
+  margin-right: 10px;
+}
+
+.each-story-textak {
+  display: block;
+  font-weight: bolder;
+  color: black;
+  font-size: 16px;
+}
+
+.eachstory-detailak {
+  font: inherit;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.width-small-screenak {
+  max-width: 65%;
+}
+
+/* sponsored */
+.sponsor-containak {
+  border: 1px solid #e6e6e6;
+
+  /* background-color: #f8f8f8; */
+  padding: 20px;
+}
+
+.categorysponsorak {
+  color: blue;
+  margin-bottom: 0;
+}
+
+.sponsorh1-ak {
+  margin-bottom: 7px;
+}
+
+.sponsorh1-ak > a {
+  font-weight: bolder;
+  color: black;
+  font-size: 18.5px;
+}
+
+.sponsor-textak {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.continer-holder-eachak {
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+/* debate */
+
+.debate-cardak {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+}
+
+.candi1ak {
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.candi2ak {
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.debate-face1ak {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.debate-face2ak {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.each-debater-nameak {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.vslineak {
+  position: relative;
+}
+
+.vs-ak::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.vs-ak {
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.vs-ak::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+/* opinion */
+
+.opinion-face1ak {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.each-opinion-nameak {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.opinion-cardak {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 5px;
+  border-top: none;
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+ul {
+  list-style: none;
+}
+
+.flexak {
+  display: flex;
 }
 
 footer {
   max-width: 1310px;
+  border-top: solid 18px #f4f5f6;
+}
+
+.inside-footerak {
+  padding: 30px 15px;
+  background-color: white;
+  position: relative;
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.footer-logoak,
+.brand-logoak {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-bottom: 12px;
+  fill: #f72210;
+  max-width: 248px;
+}
+
+.textonlyak {
+  padding: 0;
+  align-items: flex-end;
+}
+
+.brand-logoak {
+  fill: red;
+}
+
+.copyrightak {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.social-linkak {
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+
+.social-linkak > li {
+  margin-left: 10px;
+}
+
+.social-linkak > .faceak {
+  margin-left: 0;
+}
+
+.social-linkak > li > a {
+  font-size: 24px;
+  color: gray;
+}
+
+.footer-linksak {
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 12px;
+  color: #666;
+}
+
+.editionak {
+  margin: 6px 15px 0 0;
+  font-weight: bolder;
+}
+
+.menu-ak {
+  padding-left: 0;
+}
+
+.menu-ak > li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.menu-ak > li > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.social-linkak > li > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.inside-footerak > .row {
+  border-bottom: 1px solid #d9d9d9;
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link-wrapperak {
+  padding: 0;
+  max-width: 145px;
 }
