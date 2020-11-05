@@ -105,25 +105,6 @@ nav* {
   border: none;
 }
 
-.magazine-section *,
-.editor-section *,
-.us *,
-.subscribe * .newsletter * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.magazine-section,
-.editor-section,
-.us,
-.subscribe .newsletter {
-  width: inherit;
-  background: #fff;
-  margin-top: 50px;
-  margin: 15px auto;
-}
-
 .mag-title {
   text-align: center;
   font-weight: 800;
@@ -139,6 +120,10 @@ nav* {
 
 .mag-section img {
   max-width: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .caption {
@@ -202,6 +187,7 @@ article h5 {
 .editor-art img {
   height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
 .editor-art .category {
@@ -236,6 +222,7 @@ article h5 {
 .us-art img {
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .us-art h4 {
@@ -246,12 +233,19 @@ article h5 {
 }
 
 aside {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  justify-content: space-around;
+  grid-gap: 10px;
+}
+
+aside div {
+  display: inline-flex;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
 
 aside img {
-  float: left;
   width: 258px;
   height: auto;
   margin-right: 10px;

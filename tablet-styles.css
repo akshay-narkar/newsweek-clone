@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  .nav4 .login {
+    display: block;
+    background-color: #f72210;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .nav4 .login-icon {
+    display: none;
+  }
+
+  .mag-section {
+    display: grid;
+  }
+}
