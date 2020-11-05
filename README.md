@@ -1,76 +1,58 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## Cloning the NewsWeek(https://newsweek.com/) Homepage using a mobile first approach different positioning methods and making the webpage responsive using bootstrap.
 
-# Project Name
+    This is a project that clones the News Week Home Page. The purpose of this project is to practice Bootstrap.
 
-> One paragraph statement about the project.
+    Break Points:
 
-![screenshot](./app_screenshot.png)
+    Mobile Site - Minimum Width - 375px
+    Tablet Site - Minimum Width - 768px
+    Desktop Site - Minimum Width - 1024px
 
-Additional description about the project and its features.
+![Screenshot](assets/newsweek.png "Screenshot of mobile first site")
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html,
+- CSS,
+- Linter,
+- VS Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
+## Automated Test
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+> There are no automated tests for this project yet.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@akshay-narkar]
+- Twitter: [@akidoit]
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@wandji20]
+- Twitter: [@wandjibertrand]
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome! Start by:
 
-Feel free to check the [issues page](issues/).
+- Forking the project
+- Cloning the project to your local machine
+- `cd` into the project directory
+- Run `git checkout -b your-branch-name`
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Give a :star: if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
