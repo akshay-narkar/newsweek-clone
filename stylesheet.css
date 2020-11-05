@@ -559,29 +559,8 @@ aside p {
   position: relative;
 }
 
-.vs-lineak::before {
-  content: "";
-  display: block;
-  background-color: #d9d9d9;
-  height: 1px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(50% - 2px);
-}
-
-.vs-ak {
-  width: 32px;
-  height: 32px;
-  background-color: #000;
-  color: #d6d6d6;
-  border-radius: 50%;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
-  text-align: center;
-  margin: 15px auto;
-}
-
-.vs-lineak::after {
+.vslineak::before,
+.vslineak::after {
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -590,6 +569,23 @@ aside p {
   left: 0;
   right: 0;
   top: 50%;
+}
+
+.vslineak::before {
+  top: 44%;
+}
+
+.vs-ak {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 15px auto;
 }
 
 /* opinion */
