@@ -29,8 +29,7 @@
   }
 
   .title-svg {
-    height: 70px;
-    width: 360px;
+    fill: #fff;
   }
 
   .nav1-cont3 {
@@ -105,8 +104,7 @@
   }
 
   .nav4 {
-    position: sticky;
-    top: 0;
+    display: none;
   }
 
   .us article img {
