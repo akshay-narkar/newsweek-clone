@@ -526,7 +526,7 @@ aside p {
 }
 
 .candi1ak {
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
@@ -536,9 +536,12 @@ aside p {
   padding-top: 10px;
 }
 
+.candface1ak {
+  margin-right: 4%;
+}
+
 .debate-face1ak {
   display: inline-block;
-  margin-right: 0;
 }
 
 .debate-face2ak {
@@ -556,7 +559,7 @@ aside p {
   position: relative;
 }
 
-.vs-ak::before {
+.vs-lineak::before {
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -578,7 +581,7 @@ aside p {
   margin: 15px auto;
 }
 
-.vs-ak::after {
+.vs-lineak::after {
   content: "";
   display: block;
   background-color: #d9d9d9;
