@@ -11,6 +11,7 @@ body {
 .main-sectionak {
   margin-top: 20px;
   padding-top: 20px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -72,6 +73,7 @@ nav* {
   margin: 0 auto;
   background: #f72210;
   z-index: 999;
+  margin: 0 auto;
 }
 
 .nav4 h3 {
@@ -93,6 +95,7 @@ nav* {
   margin: auto 5px;
   font-size: 25px;
 }
+
 .nav4 .login {
   display: none;
 }
@@ -131,6 +134,13 @@ aside img {
   margin-right: 10px;
 }
 
+aside > img {
+  float: left;
+  width: 258px;
+  height: auto;
+  margin-right: 10px;
+}
+
 .mag-section img {
   max-width: 100%;
   height: auto;
@@ -161,6 +171,7 @@ aside img {
 article {
   margin: auto 0;
 }
+
 .mag-art span {
   display: inline-block;
   margin-top: 10px;
@@ -263,6 +274,7 @@ aside p {
   color: #111;
   font-weight: 800;
 }
+
 .subscribe h5 {
   color: #f72210;
   text-transform: uppercase;
@@ -356,10 +368,15 @@ aside p {
   background: #f72210;
   font-weight: 700;
   border: none;
-  padding: auto 20px;
+
+  /* padding: auto 20px; */
 }
 
 /* feature */
+
+.top-story-container {
+  margin-bottom: 2em;
+}
 
 .feature1 {
   padding-top: 39px;
@@ -379,7 +396,7 @@ aside p {
 }
 
 .block-titleak {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
   text-transform: uppercase;
   padding-bottom: 11px;
@@ -510,8 +527,7 @@ aside p {
 }
 
 .continer-holder-eachak {
-  padding-top: 15px;
-  padding-bottom: 0;
+  padding: 15px 0 0;
 }
 
 /* debate */
@@ -525,7 +541,7 @@ aside p {
 }
 
 .candi1ak {
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
@@ -535,9 +551,12 @@ aside p {
   padding-top: 10px;
 }
 
+.candface1ak {
+  margin-right: 4%;
+}
+
 .debate-face1ak {
   display: inline-block;
-  margin-right: 0;
 }
 
 .debate-face2ak {
@@ -555,29 +574,8 @@ aside p {
   position: relative;
 }
 
-.vs-ak::before {
-  content: "";
-  display: block;
-  background-color: #d9d9d9;
-  height: 1px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(50% - 2px);
-}
-
-.vs-ak {
-  width: 32px;
-  height: 32px;
-  background-color: #000;
-  color: #d6d6d6;
-  border-radius: 50%;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
-  text-align: center;
-  margin: 15px auto;
-}
-
-.vs-ak::after {
+.vslineak::before,
+.vslineak::after {
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -586,6 +584,23 @@ aside p {
   left: 0;
   right: 0;
   top: 50%;
+}
+
+.vslineak::before {
+  top: 44%;
+}
+
+.vs-ak {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 15px auto;
 }
 
 /* opinion */
@@ -611,6 +626,65 @@ aside p {
   margin-bottom: 20px;
 }
 
+/* Form */
+
+.newsletter-signupak {
+  max-width: 300px;
+  margin: 20px auto 5px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.icon-ak {
+  display: block;
+  width: 63px;
+  height: 28px;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f72210;
+  margin-right: 10px;
+}
+
+.free-signupak input {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+}
+
+.form-textak {
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+}
+
+.form-submitak {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg);
+  background-position: center;
+  background-size: 108px;
+  background-repeat: no-repeat;
+  background-color: #f61602;
+  border-radius: 3px;
+}
+
+.n-titleak {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  align-items: flex-start;
+}
+
 /* footer */
 
 ul {
@@ -624,6 +698,7 @@ ul {
 footer {
   max-width: 1310px;
   border-top: solid 18px #f4f5f6;
+  margin: 0 auto;
 }
 
 .inside-footerak {
