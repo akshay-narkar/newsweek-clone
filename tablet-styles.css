@@ -4,13 +4,17 @@
     background-color: #f72210;
     color: #fff;
     font-weight: 700;
-    font-size: 18px;
-  }
-  .nav4 .login-icon {
-    display: none;
+    font-size: 16px;
+    margin-right: -5px;
   }
 
-  .mag-section {
-    display: grid;
+  .nav4 button {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 800;
+  }
+  .nav4 .user-icon {
+    display: none;
   }
 }
