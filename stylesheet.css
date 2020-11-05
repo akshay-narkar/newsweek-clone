@@ -121,6 +121,10 @@ nav* {
   height: auto;
   margin: 0;
 }
+aside div {
+  width: 100%;
+}
+
 aside img {
   width: 258px;
   height: auto;
@@ -272,6 +276,10 @@ aside p {
   background: #f4f5f6;
 }
 
+.subscribe-cont1 {
+  position: relative;
+}
+
 .subscribe img {
   width: 170px;
   height: 227px;
@@ -281,24 +289,8 @@ aside p {
 }
 
 .over-w {
-  position: relative;
-  bottom: 215px;
-  left: 40px;
-}
-
-.subscribe-text1 {
-  position: relative;
-  font-weight: 800;
-  font-size: 17px;
-  color: #111;
-  bottom: 215px;
-  text-align: center;
-}
-
-.subscribe-text2 {
-  position: relative;
-  bottom: 150px;
-  font-size: 16px;
+  position: absolute;
+  right: 55%;
 }
 
 .subscribe-text2 span {

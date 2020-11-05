@@ -109,4 +109,9 @@
     position: sticky;
     top: 0;
   }
+
+  .us article img {
+    width: 355px;
+    height: 237px;
+  }
 }

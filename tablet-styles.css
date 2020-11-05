@@ -17,4 +17,9 @@
   .nav4 .user-icon {
     display: none;
   }
+
+  aside img {
+    width: 110px;
+    height: 110px;
+  }
 }
