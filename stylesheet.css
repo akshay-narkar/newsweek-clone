@@ -8,6 +8,11 @@ body {
   box-sizing: border-box;
 }
 
+.main-sectionak {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -20,9 +25,8 @@ h6 {
 }
 
 main {
-  max-width: 100%;
   max-width: 1310px;
-  padding: 10px 15px;
+  padding: 0 15px;
   margin: 0 auto;
   background-color: white;
 }
@@ -50,6 +54,7 @@ nav* {
   padding: 0;
   box-sizing: border-box;
 }
+
 .nav1,
 .nav2,
 .nav3 {
@@ -61,12 +66,13 @@ nav* {
   top: 0;
   right: 0;
   left: 0;
-  width: 100%;
+  max-width: 1310px;
   display: flex;
   justify-content: space-between;
   height: 50px;
   background: #f72210;
   z-index: 999;
+  margin: 0 auto;
 }
 
 .nav4 h3 {
@@ -88,6 +94,7 @@ nav* {
   margin: auto 5px;
   font-size: 25px;
 }
+
 .nav4 .login {
   display: none;
 }
@@ -96,7 +103,6 @@ nav* {
   font-size: 12px;
   height: 30px;
   margin: auto 15px;
-  padding: ax;
   border-radius: 30px;
   font-weight: 600;
   color: #111;
@@ -106,25 +112,6 @@ nav* {
   border: none;
 }
 
-.magazine-section *,
-.editor-section *,
-.us *,
-.subscribe * .newsletter * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.magazine-section,
-.editor-section,
-.us,
-.subscribe .newsletter {
-  width: inherit;
-  background: #fff;
-  margin-top: 50px;
-  margin: 15px auto;
-}
-
 .mag-title {
   text-align: center;
   font-weight: 800;
@@ -132,10 +119,16 @@ nav* {
 }
 
 .smiling-man {
-  width: 100%;
   max-width: 100%;
   height: auto;
   margin: 0;
+}
+
+aside > img {
+  float: left;
+  width: 258px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .mag-section img {
@@ -164,6 +157,7 @@ nav* {
 article {
   margin: auto 10px;
 }
+
 .mag-art span {
   display: inline-block;
   margin-top: 10px;
@@ -172,7 +166,6 @@ article {
   background-color: #f72210;
   color: #fff;
   padding: 7px;
-  width: fit-content;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -251,19 +244,13 @@ aside {
   flex-direction: column;
 }
 
-aside img {
-  float: left;
-  width: 258px;
-  height: auto;
-  margin-right: 10px;
-}
-
 aside p {
   margin-top: 10px;
   font-size: 16px;
   color: #111;
   font-weight: 800;
 }
+
 .subscribe h5 {
   color: #f72210;
   text-transform: uppercase;
@@ -365,7 +352,8 @@ aside p {
   background: #f72210;
   font-weight: 700;
   border: none;
-  padding: auto 20px;
+
+  /* padding: auto 20px; */
 }
 
 /* feature */
