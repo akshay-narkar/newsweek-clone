@@ -23,12 +23,21 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
   color: black;
+  text-transform: uppercase;
 }
 
 main {
   max-width: 1310px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.font-size16 {
+  font-size: 16px;
 }
 
 a {
@@ -40,13 +49,6 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: red;
   color: black;
-}
-
-.gray-border {
-  max-width: 1310px;
-  border-top: solid 18px #f4f5f6;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .nav1,
@@ -91,18 +93,15 @@ a:hover {
 .nav-subscribe {
   font-size: 12px;
   height: 30px;
-  border-radius: 30px;
   font-weight: 600;
   background: #ffe400;
   width: auto;
-  text-transform: uppercase;
   border: none;
 }
 
 .mag-title {
   text-align: center;
   font-weight: 800;
-  text-transform: uppercase;
 }
 
 .smiling-man {
@@ -128,7 +127,6 @@ aside > img {
 
 .caption {
   position: relative;
-  font-size: 16px;
   font-weight: 700;
   bottom: 24px;
   border: 1px solid black;
@@ -140,7 +138,6 @@ aside > img {
 .mag-section h4 {
   text-align: center;
   font-weight: 700;
-  text-transform: uppercase;
   color: #444;
   background-color: #f4f5f6;
 }
@@ -156,9 +153,7 @@ article {
   margin-right: 10px;
   background-color: #f72210;
   padding: 7px;
-  font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .mag-art .world {
@@ -190,7 +185,6 @@ article h5 {
   width: auto;
   padding: 5px;
   background: #f4f5f6;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   position: relative;
@@ -198,9 +192,7 @@ article h5 {
 }
 
 .category-headline {
-  font-size: 16px;
   font-weight: 700;
-  text-decoration: none;
 }
 
 .us h3 {
@@ -271,10 +263,6 @@ aside p {
   height: 170px;
 }
 
-.newsletter button {
-  font-size: 16px;
-}
-
 .top-story-container {
   margin-bottom: 2em;
 }
@@ -297,9 +285,6 @@ aside p {
 }
 
 .block-titleak {
-  font-size: 16px;
-  font-weight: bolder;
-  text-transform: uppercase;
   padding-bottom: 11px;
   color: rgba(3, 3, 3, 0.4);
   display: block;
@@ -323,10 +308,7 @@ aside p {
 
 .categoryak {
   display: block;
-  font-size: 16px;
-  font-weight: bold;
   color: #f72210;
-  text-transform: uppercase;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -336,7 +318,6 @@ aside p {
 
 .categoryak > a {
   color: inherit;
-  text-decoration: none;
 }
 
 .myturn-imageak {
@@ -344,7 +325,7 @@ aside p {
 }
 
 .h10ak > a {
-  font: bold 14px "Roboto Condensed", sans-serif;
+  font: 14px "Roboto Condensed", sans-serif;
   color: rgba(3, 3, 3, 0.5);
 }
 
@@ -379,8 +360,6 @@ aside p {
 
 .each-story-textak {
   display: block;
-  font-weight: bolder;
-  font-size: 16px;
 }
 
 .eachstory-detailak {
@@ -408,8 +387,6 @@ aside p {
 }
 
 .sponsorh1-ak > a {
-  font-weight: bolder;
-  color: black;
   font-size: 18.5px;
 }
 
@@ -487,8 +464,7 @@ aside p {
   height: 32px;
   background-color: #000;
   color: #d6d6d6;
-  border-radius: 50%;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  font: 16px/33px "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 15px auto;
 }
@@ -502,8 +478,6 @@ aside p {
   font-size: 14px;
   line-height: 21px;
   color: #555;
-  font-weight: bold;
-  text-transform: uppercase;
   margin-top: 4px;
 }
 
@@ -549,9 +523,7 @@ aside p {
 }
 
 .form-submitak {
-  text-transform: uppercase;
   cursor: pointer;
-  font-weight: bold;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
   background: url(https://g.newsweek.com/www/images/free-sign-up.svg);
@@ -559,13 +531,11 @@ aside p {
   background-size: 108px;
   background-repeat: no-repeat;
   background-color: #f61602;
-  border-radius: 3px;
 }
 
 .n-titleak {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
-  text-transform: uppercase;
   align-items: flex-start;
 }
 
@@ -644,7 +614,6 @@ footer {
 
 .editionak {
   margin: 6px 15px 0 0;
-  font-weight: bolder;
 }
 
 .menu-ak {
