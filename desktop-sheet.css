@@ -1,0 +1,112 @@
+@media screen and (min-width: 992px) {
+  header {
+    margin: 0 auto;
+    max-width: 1310px;
+  }
+
+  .nav1 {
+    height: 95px;
+    background: #f72210;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 15px;
+  }
+
+  .nav1-cont1 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .nav1-cont1 time {
+    display: block;
+    margin-top: 17px;
+  }
+
+  .title-svg {
+    fill: #fff;
+  }
+
+  .nav1-cont3 {
+    text-align: end;
+  }
+
+  .button1 {
+    border: none;
+    color: #fff;
+    background-color: #f72210;
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .button2 {
+    height: 30px;
+    margin: auto 15px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #111;
+    background: #ffe400;
+    width: auto;
+    text-transform: uppercase;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .nav2 li {
+    align-self: center;
+    color: #aaa;
+  }
+
+  .colored-text {
+    color: #000;
+  }
+
+  #colored-text {
+    border: none;
+  }
+
+  .nav3 {
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 50px 0 10px;
+  }
+
+  .nav3 li {
+    align-self: center;
+  }
+
+  .nav4 {
+    display: none;
+  }
+
+  .newsletter img {
+    width: 48%;
+    max-width: 191px;
+    height: 308px;
+    margin: auto;
+  }
+
+  .us article img {
+    width: 355px;
+    height: 237px;
+  }
+}
