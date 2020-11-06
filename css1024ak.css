@@ -1,0 +1,37 @@
+.right-pad768ak {
+  padding-right: 15px;
+}
+
+.left-pad768akP {
+  padding-left: 15px;
+}
+
+.rightleft-padak1024 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.right-pad768adjak {
+  padding-right: 7.5px;
+}
+
+.left-pad768adjak {
+  padding-left: 7.5px;
+}
+
+.rightleft-padadjak {
+  padding-left: 3.75px;
+  padding-right: 3.75px;
+}
+
+.right-sectionak {
+  max-width: 26%;
+}
+
+.rightcenter-ak {
+  max-width: 74%;
+}
+
+.eachak768 {
+  padding-top: 0;
+}
