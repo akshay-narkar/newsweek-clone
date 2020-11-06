@@ -50,23 +50,10 @@ a:hover {
   margin-left: -15px;
 }
 
-/*
-nav* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 .nav1,
 .nav2,
 .nav3 {
   display: none;
-}
-
-aside div {
-  display: inline-flex;
-  width: 100%;
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
 }
 
 .nav4 {
@@ -85,10 +72,7 @@ aside div {
 
 .nav4 h3 {
   color: #fff;
-  margin: auto 0;
-  margin-left: 15px;
   font-size: 30px;
-  font-weight: 800;
 }
 
 .nav4 div {
@@ -107,10 +91,9 @@ aside div {
   display: none;
 }
 
-.nav4 button {
+.nav-subscribe {
   font-size: 12px;
   height: 30px;
-  margin: auto 15px;
   border-radius: 30px;
   font-weight: 600;
   color: #111;
@@ -292,7 +275,7 @@ aside p {
   top: 13px;
 }
 
-.subscribe button {
+.subscribe .subscribe-button {
   color: #fff;
   background: #f72210;
   font-size: 14px;
