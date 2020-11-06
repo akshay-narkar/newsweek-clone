@@ -29,7 +29,6 @@ main {
   max-width: 1310px;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: white;
 }
 
 a {
@@ -71,7 +70,6 @@ a:hover {
 }
 
 .nav4 h3 {
-  color: #fff;
   font-size: 30px;
 }
 
@@ -82,7 +80,6 @@ a:hover {
 }
 
 .nav4 i {
-  color: #fff;
   margin: auto 5px;
   font-size: 25px;
 }
@@ -96,7 +93,6 @@ a:hover {
   height: 30px;
   border-radius: 30px;
   font-weight: 600;
-  color: #111;
   background: #ffe400;
   width: auto;
   text-transform: uppercase;
@@ -113,12 +109,6 @@ a:hover {
   max-width: 100%;
   height: auto;
   margin: 0;
-}
-
-aside img {
-  width: 258px;
-  height: auto;
-  margin-right: 10px;
 }
 
 aside > img {
@@ -165,7 +155,6 @@ article {
   margin-bottom: 10px;
   margin-right: 10px;
   background-color: #f72210;
-  color: #fff;
   padding: 7px;
   font-size: 16px;
   font-weight: 700;
@@ -174,7 +163,6 @@ article {
 
 .mag-art .world {
   color: #f72210;
-  background-color: #fff;
 }
 
 article h5 {
@@ -185,13 +173,9 @@ article h5 {
 }
 
 .editor-section h3 {
-  text-align: center;
   font-weight: 700;
-  text-transform: uppercase;
-  color: #111;
   font-size: 22px;
   padding-top: 10px;
-  background-color: #fff;
 }
 
 .editor-art img {
@@ -216,7 +200,6 @@ article h5 {
 .category-headline {
   font-size: 16px;
   font-weight: 700;
-  color: #111;
   text-decoration: none;
 }
 
@@ -224,7 +207,6 @@ article h5 {
   color: #f72210;
   border-bottom: 1px solid #eee;
   font-size: 25px;
-  text-transform: capitalize;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -376,7 +358,6 @@ aside p {
   background-color: #c2d4d7;
   padding-left: 6px;
   padding-right: 6px;
-  color: black;
   font-size: 11px;
   font-weight: 500;
 }
@@ -399,7 +380,6 @@ aside p {
 .each-story-textak {
   display: block;
   font-weight: bolder;
-  color: black;
   font-size: 16px;
 }
 
@@ -564,13 +544,11 @@ aside p {
   color: #555;
   font-size: 14px;
   font-family: "Helvetica", sans-serif;
-  background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
 }
 
 .form-submitak {
-  color: white;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: bold;
@@ -607,7 +585,6 @@ footer {
 
 .inside-footerak {
   padding: 30px 15px;
-  background-color: white;
   position: relative;
   font-size: 12px;
   line-height: 12px;

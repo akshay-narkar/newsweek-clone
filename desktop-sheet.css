@@ -60,7 +60,6 @@
     display: flex;
     justify-content: space-around;
     height: 45px;
-    background: #fff;
     font-size: 19px;
     line-height: 24px;
     font-weight: bold;
@@ -88,7 +87,6 @@
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    background: #ffff;
     padding: 0 50px 0 10px;
   }
 
