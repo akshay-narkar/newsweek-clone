@@ -42,7 +42,6 @@
   }
 
   .button2 {
-    font-size: 12px;
     height: 30px;
     margin: auto 15px;
     border-radius: 30px;
@@ -102,20 +101,15 @@
     display: none;
   }
 
-  .us article img {
-    width: 355px;
-    height: 237px;
-  }
-
-  aside img {
-    width: 110px;
-    height: 110px;
-  }
-
   .newsletter img {
     width: 48%;
     max-width: 191px;
     height: 308px;
     margin: auto;
+  }
+
+  .us article img {
+    width: 355px;
+    height: 237px;
   }
 }

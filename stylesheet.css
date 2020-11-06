@@ -292,7 +292,6 @@ aside p {
 .newsletter button {
   font-size: 16px;
 }
-/* feature */
 
 .top-story-container {
   margin-bottom: 2em;
@@ -358,8 +357,6 @@ aside p {
   text-decoration: none;
 }
 
-/* my turn  */
-
 .myturn-imageak {
   width: 100%;
 }
@@ -383,8 +380,6 @@ aside p {
   font-size: 11px;
   font-weight: 500;
 }
-
-/* more stories */
 
 .each-story-containerak {
   border-top: 1px solid #d9d9d9;
@@ -418,11 +413,8 @@ aside p {
   max-width: 65%;
 }
 
-/* sponsored */
 .sponsor-containak {
   border: 1px solid #e6e6e6;
-
-  /* background-color: #f8f8f8; */
   padding: 20px;
 }
 
@@ -449,8 +441,6 @@ aside p {
 .continer-holder-eachak {
   padding: 15px 0 0;
 }
-
-/* debate */
 
 .debate-cardak {
   border-top: 4px solid #d9d9d9;
@@ -523,8 +513,6 @@ aside p {
   margin: 15px auto;
 }
 
-/* opinion */
-
 .opinion-face1ak {
   display: inline-block;
   margin-right: 15px;
@@ -545,8 +533,6 @@ aside p {
   border-top: none;
   margin-bottom: 20px;
 }
-
-/* Form */
 
 .newsletter-signupak {
   max-width: 300px;
@@ -604,8 +590,6 @@ aside p {
   text-transform: uppercase;
   align-items: flex-start;
 }
-
-/* footer */
 
 ul {
   list-style: none;
