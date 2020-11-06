@@ -63,7 +63,6 @@ a:hover {
   right: 0;
   left: 0;
   max-width: 1310px;
-  display: flex;
   justify-content: space-between;
   height: 50px;
   margin: 0 auto;
@@ -99,11 +98,6 @@ a:hover {
   border: none;
 }
 
-.mag-title {
-  text-align: center;
-  font-weight: 800;
-}
-
 .smiling-man {
   max-width: 100%;
   height: auto;
@@ -136,8 +130,6 @@ aside > img {
 }
 
 .mag-section h4 {
-  text-align: center;
-  font-weight: 700;
   color: #444;
   background-color: #f4f5f6;
 }
@@ -147,7 +139,6 @@ article {
 }
 
 .mag-art span {
-  display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -162,13 +153,11 @@ article {
 
 article h5 {
   font-size: 14px;
-  font-weight: 900;
   color: #111;
   margin: 5px auto 25px 0;
 }
 
 .editor-section h3 {
-  font-weight: 700;
   font-size: 22px;
   padding-top: 10px;
 }
@@ -180,19 +169,13 @@ article h5 {
 }
 
 .editor-art .category {
-  display: inline-block;
   color: #f72210;
   width: auto;
   padding: 5px;
   background: #f4f5f6;
-  font-weight: 700;
   font-size: 18px;
   position: relative;
   bottom: 28px;
-}
-
-.category-headline {
-  font-weight: 700;
 }
 
 .us h3 {
@@ -287,7 +270,6 @@ aside p {
 .block-titleak {
   padding-bottom: 11px;
   color: rgba(3, 3, 3, 0.4);
-  display: block;
 }
 
 .central-imageak {
@@ -302,12 +284,9 @@ aside p {
 
 .h1ak > a {
   color: inherit;
-  font-weight: 500;
-  text-align: justify;
 }
 
 .categoryak {
-  display: block;
   color: #f72210;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -340,7 +319,6 @@ aside p {
   padding-left: 6px;
   padding-right: 6px;
   font-size: 11px;
-  font-weight: 500;
 }
 
 .each-story-containerak {
@@ -356,10 +334,6 @@ aside p {
 .each-story-imageak {
   max-width: 95px;
   margin-right: 10px;
-}
-
-.each-story-textak {
-  display: block;
 }
 
 .eachstory-detailak {
@@ -422,19 +396,9 @@ aside p {
   margin-right: 4%;
 }
 
-.debate-face1ak {
-  display: inline-block;
-}
-
-.debate-face2ak {
-  display: inline-block;
-  margin-left: 0;
-}
-
 .each-debater-nameak {
   font-size: 15px;
   margin-top: 5px;
-  font-weight: 500;
 }
 
 .vslineak {
@@ -465,12 +429,10 @@ aside p {
   background-color: #000;
   color: #d6d6d6;
   font: 16px/33px "Roboto Condensed", sans-serif;
-  text-align: center;
   margin: 15px auto;
 }
 
 .opinion-face1ak {
-  display: inline-block;
   margin-right: 15px;
 }
 
@@ -497,7 +459,6 @@ aside p {
 }
 
 .icon-ak {
-  display: block;
   width: 63px;
   height: 28px;
   background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
@@ -564,7 +525,6 @@ footer {
 
 .footer-logoak,
 .brand-logoak {
-  display: block;
   width: 236px;
   height: 36px;
   margin-bottom: 12px;
@@ -582,7 +542,6 @@ footer {
 }
 
 .copyrightak {
-  display: block;
   margin-bottom: 1em;
 }
 
@@ -621,7 +580,6 @@ footer {
 }
 
 .menu-ak > li {
-  display: inline-block;
   padding-right: 20px;
   margin: 6px 0;
   cursor: pointer;
