@@ -29,7 +29,8 @@
   }
 
   .title-svg {
-    fill: #fff;
+    height: 70px;
+    width: 360px;
   }
 
   .nav1-cont3 {
@@ -48,6 +49,7 @@
   }
 
   .button2 {
+    font-size: 12px;
     height: 30px;
     margin: auto 15px;
     border-radius: 30px;
@@ -95,7 +97,7 @@
     text-transform: uppercase;
     text-align: center;
     background: #ffff;
-    padding: 0 50px 0 10px;
+    padding: 0 50px 0px 10px;
     width: 75%;
   }
 
@@ -110,5 +112,12 @@
   .us article img {
     width: 355px;
     height: 237px;
+  }
+  .newsletter img {
+    width: 48%;
+    max-width: 191px;
+    max-width: ;
+    height: 308px;
+    margin: auto;
   }
 }
