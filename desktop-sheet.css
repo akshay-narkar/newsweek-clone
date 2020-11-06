@@ -1,17 +1,11 @@
 @media screen and (min-width: 992px) {
-  .nav1,
-  .nav2,
-  .nav3 {
-    display: block;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  header {
+    margin: 0 auto;
     max-width: 1310px;
   }
 
   .nav1 {
     height: 95px;
-    max-width: 1310px;
     background: #f72210;
     display: flex;
     justify-content: space-between;
@@ -105,6 +99,13 @@
 
   .nav4 {
     display: none;
+  }
+
+  .newsletter img {
+    width: 48%;
+    max-width: 191px;
+    height: 308px;
+    margin: auto;
   }
 
   .us article img {
